@@ -46,13 +46,13 @@ const UserSearch = () => {
           </div>
         </form>
       </div>
-      {/* {user.length > 0 && (
+      {user.length > 0 && (
         <div>
           <button onClick={ClearUsers} className="btn btn-ghost btn-lg">
             Clear
           </button>
         </div>
-      )} */}
+      )}
     </div>
   );
 };
